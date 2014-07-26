@@ -9,7 +9,7 @@ if (!file.exists("data")) {
     unzip("./data/acc_data.zip")
 }
 
-## Merghe the training and test sets to create one data set
+## Merge the training and test sets to create one data set
 features <- read.table("./UCI HAR Dataset/features.txt")
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 ## Load the training set files
